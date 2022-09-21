@@ -14,6 +14,11 @@
       "email": "fadliselaz@gmail.com",
       "password": "$2a$10$uHTLILfBJFxAtZrErk/Gce1sphwqeJlmzPjiidDNTuUYixDY8UTay",
       "id": 3
+    },
+    {
+      "email": "evalia@gmail.com",
+      "password": "$2a$10$dWbEG/KvjkCoPUdcvjjGw.CXCOOlL2HpoPKBOInbfavsCuKL/EUqq",
+      "id": 4
     }
   ],
   "blogs": []

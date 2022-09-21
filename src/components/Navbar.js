@@ -10,17 +10,24 @@ export default function Navbar(){
 
     if(userData){
         return `
-        <nav class="w-full h-16 flex items-center justify-between bg-orange-500 px-6">
+        <nav class="w-full h-16 flex items-center justify-start bg-orange-500 px-6">
 
             <div class="flex gap-2">
                 <img src='logo.svg' class="w-10" />
                 <h1 class="text-white font-light uppercase select-none">Jvalley</h1>
             </div>
 
-            <menu class="flex items-center gap-4 text-white font-light">
+            <menu class="flex items-center gap-4 text-white font-light ml-auto">
                 <a href="/">Home</a>
                 <a href="/about">About</a>
                 <a onclick="handleLogout()">Logout</a>
+                
+                <div class="flex items-center gap-1">
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                    ${ JSON.parse(userData).user.email }
+                </div>
             </menu>
 
         </nav>
