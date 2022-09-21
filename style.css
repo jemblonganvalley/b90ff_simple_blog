@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply p-0 m-0 overflow-x-hidden
+  }
+  .title {
+    @apply text-red-500 text-2xl
+  }
+
+
+}
