@@ -5,6 +5,7 @@ import Register from "./src/pages/Register"
 
 const app = document.getElementById('app')
 const page = window.location.pathname
+const userData = localStorage.getItem('userData')
 
 switch(page){
   case "/":
@@ -12,11 +13,11 @@ switch(page){
     break
 
   case '/register':
-    Register()
+    userData ? Home() : Register()
     break
 
   case '/login':
-    Login()
+    userData ? Home() : Login()
     break
 
   case '/about':
