@@ -1,4 +1,20 @@
 {
-  "users" : [],
-  "blogs" : []
+  "users": [
+    {
+      "email": "moful@mailinator.com",
+      "password": "$2a$10$M22DSXIZ8Pur26SBdbQts.TElwNvpt.CF6NUZ2AProwybfM399pqa",
+      "id": 1
+    },
+    {
+      "email": "cuzah@mailinator.com",
+      "password": "$2a$10$1tBFflQugLzcVc4kNZ.y2u8rL3PAzBxR4p0IEkHMV.nGdQOPRfXhq",
+      "id": 2
+    },
+    {
+      "email": "fadliselaz@gmail.com",
+      "password": "$2a$10$uHTLILfBJFxAtZrErk/Gce1sphwqeJlmzPjiidDNTuUYixDY8UTay",
+      "id": 3
+    }
+  ],
+  "blogs": []
 }

@@ -9,7 +9,7 @@ window.handleRegister = (event)=>{
     let email = event.target.email.value;
     let password = event.target.password.value;
     let password2 = event.target.password2.value;
-
+    
     //validator
     if(!email || !password || !password2){
         return alert("Silakan Lengkapi data");
